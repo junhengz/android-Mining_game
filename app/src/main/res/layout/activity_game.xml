@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:background="@drawable/background"
+    tools:context=".game">
+
+    <TextView
+        android:id="@+id/found"
+        android:textSize="18sp"
+        android:textColor="#349FFD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp" />
+
+    <TableLayout
+        android:id="@+id/gameTable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/found"
+        android:layout_above="@+id/times_played"
+        android:layout_alignLeft="@+id/found"
+        android:layout_alignRight="@+id/times_played"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:stretchColumns="*"></TableLayout>
+
+    <TextView
+        android:id="@+id/times_played"
+        android:textColor="#F6E54C"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/detected"
+        android:textSize="18sp"
+        android:textColor="#FF4141"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gameTable"
+        android:layout_alignRight="@+id/times_played" />
+
+
+</RelativeLayout>

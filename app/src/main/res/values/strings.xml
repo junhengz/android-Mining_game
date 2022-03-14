@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Find LEGO bricks</string>
+    <string name="author">By Junheng Zhang</string>
+    <string name="skip">Skip</string>
+    <string name="start">Play game</string>
+    <string name="option">Options</string>
+    <string name="about">About</string>
+    <string name="help">Help</string>
+    <string name="find_lego">Find LEGO bricks</string>
+    <string name="setting">Settings</string>
+    <string name="board_size">Board size</string>
+    <string name="num_lego"># LEGO bricks</string>
+    <string name="erase_time_played">Erase times played</string>
+    <string name="help_text">
+        About the Author\n
+        Junheng Zhang\n
+        junhengz@sfu.ca\n
+        from CMPT 276 (https://opencoursehub.cs.sfu.ca/jackt/grav-cms/cmpt276/home)\n
+        \n
+        How to play\n
+        Can you find all LEGO bricks? There are many LEGO bricks hidden in boxes, you can find them by clicking the box. If the box you clicked does not contains the LEGO brick, you will get the scan number which shows how many LEGO bricks are hidden in the same row and column, try to use fewer scan to find all LEGO bricks.\n\nYou may also modify the difficulty by change the number of boxes and number of LEGO bricks hidden in the options\n\nGood luck and enjoy the game.\n
+        \n
+        References\n
+        Image and vector references\n
+        Background image: restrict from https://www.freepik.com/free-photo/office-desktop-study_4528186.htm on June 20 2020\n
+        Colored Lego bricks vector: restrict from  https://svg-clipart.com/red/RJLgA2k-lego-bricks-clipart on June 20 2020\n
+        Lego brick vector: restrict from https://thenounproject.com/term/lego-brick/846918/ on June 20 2020
+    </string>
+</resources>
